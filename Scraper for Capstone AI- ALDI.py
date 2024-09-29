@@ -4,15 +4,9 @@ import bs4
 import csv
 from datetime import datetime
 
-# Function to clear the CSV file
-def clear_csv(file_name):
-    open(file_name, 'w').close()  # Truncate the file
-
 # Specify the CSV file name
 csv_file = 'aldi_products.csv'
 
-# Clear the CSV file before writing new data
-clear_csv(csv_file)
 
 # List of URLs to scrape
 urls = [
