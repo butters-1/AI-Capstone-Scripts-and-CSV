@@ -2,7 +2,7 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '25 08 * * *'  # Runs every day at 8 AM UTC
+    - cron: '0 21 * * *'  # Runs every day at 8 AM UTC
 
 jobs:
   run_script:
